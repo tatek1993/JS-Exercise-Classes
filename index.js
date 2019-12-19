@@ -209,7 +209,9 @@ class ProjectManager extends Instructor{
     return `${this.name} announces to ${channel}, @channel standy times!`;
   }
   debugsCode(Student, subject){
-    `${this.name} debugs ${Student.name}'s code on ${subject}`;
+    console.log(Student.name);
+   return `${this.name} debugs ${Student.name}'s code on ${subject}`;
+   
   }
 }
 
